@@ -49,7 +49,7 @@ namespace AS2324.DiegoSucci._3g.verifica
 
             DataTable dtDati = new DataTable();
 
-            query = "SELECT * FROM ";
+            query = "SELECT * FROM Squadre";
 
             SQLiteDataAdapter da = new SQLiteDataAdapter(query, strConnessione);
 
